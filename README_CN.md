@@ -22,9 +22,8 @@
   - [基础设施与系统](#基础设施与系统)
   - [学习与进化](#学习与进化)
   - [安全与信任](#安全与信任)
-  - [具身智能](#具身智能)
   - [Agent 社会](#agent-社会)
-  - [领域应用](#领域应用)
+  - [application](#application)
 - [架构](#-架构)
 - [生态时间线](#-生态时间线)
 - [其他资源](#-其他资源) — SDK、工具、社区、相关仓库
@@ -72,7 +71,24 @@
 | **Uncovering Security Threats and Architecting Defenses in Autonomous Agents: A Case Study of OpenClaw** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.12644-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.12644) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/NY1024/ClawGuard) | 清华 & 蚂蚁集团；三层风险分类法；FASA + ClawGuard；26% 社区工具存在漏洞 |
 | **Defensible Design for OpenClaw: Securing Autonomous Tool-Invoking Agents** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.13151-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.13151) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | 安全即工程蓝图；风险分类法；实用研究议程 |
 
-### 具身智能
+### Agent 社会
+
+> Agent 群体中的社会行为、涌现规范、同伴学习与集体动力学。
+
+| 标题 | 来源 | 日期 | 论文 | 代码 | 要点 |
+|------|------|------|------|------|------|
+| **OpenClaw Agents on Moltbook: Risky Instruction Sharing and Norm Enforcement in an Agent-Only Social Network** | arXiv | 2026.02 | [![arXiv](https://img.shields.io/badge/2602.02625-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2602.02625) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/manikm-114/OpenClaw-Agents-on-Moltbook) | 3.9 万帖子 / 1.45 万 Agent；18.4% 含行动诱导语言；涌现规范执行 |
+| **When AI Agents Teach Each Other: Discourse Patterns Resembling Peer Learning in the Moltbook Community** | arXiv | 2026.02 | [![arXiv](https://img.shields.io/badge/2602.14477-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2602.14477) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | 240 万 Agent 的同伴学习模式 |
+| **OpenClaw AI Agents as Informal Learners at Moltbook: Characterizing an Emergent Learning Community at Scale** | arXiv | 2026.02 | [![arXiv](https://img.shields.io/badge/2602.18832-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2602.18832) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | 280 万 Agent 的非正式学习行为 |
+| **When Openclaw Agents Learn from Each Other: Insights from Emergent AI Agent Communities for Human-AI Partnership in Education** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.16663-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.16663) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | 16.7 万 Agent；双向脚手架效应；涌现同伴学习；AIED 启示 |
+| **MoChat: Reconnecting the World through AI Agents** | GitHub | 2026.02 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/HKUDS/MoChat) | MoChat 是一个 AI agent 原生社交平台，构建了 AI agent 的互动生态和协作空间|
+
+
+### application
+
+> 垂直领域应用，按具身、科学发现、医疗和其他方向整理。
+
+#### 具身智能
 
 > 机器人、物理实体化与 ROS 集成。
 
@@ -83,31 +99,36 @@
 | **ROSClaw: An OpenClaw ROS 2 Framework for Agentic Robot Control and Interaction** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.11558-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.26997) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/PlaiPin/rosclaw) | SF Hackathon 冠军；Unitree G1/H1、DJI；可在 RPi4 运行 |
 | **RoClaw: The Cerebellum — physical embodiment for AI agents** | GitHub | 2026.03 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/EvolvingAgentsLabs/RoClaw) | 双脑字节码架构；体感固件；开源硬件 CAD 与仿真环境 |
 
-### Agent 社会
+#### 科学发现
 
-> Agent 群体中的社会行为、涌现规范、同伴学习与集体动力学。
-
-| 标题 | 来源 | 日期 | 论文 | 代码 | 要点 |
-|------|------|------|------|------|------|
-| **OpenClaw Agents on Moltbook: Risky Instruction Sharing and Norm Enforcement in an Agent-Only Social Network** | arXiv | 2026.02 | [![arXiv](https://img.shields.io/badge/2602.02625-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2602.02625) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/manikm-114/OpenClaw-Agents-on-Moltbook) | 3.9 万帖子 / 1.45 万 Agent；18.4% 含行动诱导语言；涌现规范执行 |
-| **When AI Agents Teach Each Other: Discourse Patterns Resembling Peer Learning in the Moltbook Community** | arXiv | 2026.02 | [![arXiv](https://img.shields.io/badge/2602.14477-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2602.14477) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | 240 万 Agent 的同伴学习模式 |
-| **OpenClaw AI Agents as Informal Learners at Moltbook: Characterizing an Emergent Learning Community at Scale** | arXiv | 2026.02 | [![arXiv](https://img.shields.io/badge/2602.18832-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2602.18832) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | 280 万 Agent 的非正式学习行为 |
-| **From Agent-Only Social Networks to Autonomous Scientific Research: Lessons from OpenClaw and Moltbook, and the Architecture of ClawdLab and Beach.Science** | arXiv | 2026.02 | [![arXiv](https://img.shields.io/badge/2602.19810-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2602.19810) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/moleculeprotocol/science.beach)  [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/bio-xyz/ClawdLab)| OpenClaw → Moltbook → ClawdLab；Sybil 抵抗；5 种架构模式 |
-| **When Openclaw Agents Learn from Each Other: Insights from Emergent AI Agent Communities for Human-AI Partnership in Education** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.16663-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.16663) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | 16.7 万 Agent；双向脚手架效应；涌现同伴学习；AIED 启示 |
-| **MoChat: Reconnecting the World through AI Agents** | GitHub | 2026.02 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/HKUDS/MoChat) | MoChat 是一个 AI agent 原生社交平台，构建了 AI agent 的互动生态和协作空间|
-
-
-### 领域应用
-
-> 垂直领域应用：医疗、教育、科学发现、个性化 Agent 等。
+> 自动化科研、分布式发现与生命科学研究平台。
 
 | 标题 | 来源 | 日期 | 论文 | 代码 | 要点 |
 |------|------|------|------|------|------|
-| **Toward Personalized LLM-Powered Agents: Foundations, Evaluation, and Future Directions** | arXiv | 2026.02 | [![arXiv](https://img.shields.io/badge/2602.22680-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2602.22680) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | 四大组件：Profile / Memory / Planning / Action |
+| **Autonomous Agents Coordinating Distributed Discovery Through Emergent Artifact Exchange** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.14312-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.14312) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/lamm-mit/scienceclaw) | 自动化科研协作；共享中间产物；肽设计 / 陶瓷筛选 / 跨领域发现 |
+| **From Agent-Only Social Networks to Autonomous Scientific Research: Lessons from OpenClaw and Moltbook, and the Architecture of ClawdLab and Beach.Science** | arXiv | 2026.02 | [![arXiv](https://img.shields.io/badge/2602.19810-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2602.19810) | [![GitHub](https://img.shields.io/badge/Beach.Science-181717?style=flat-square&logo=github)](https://github.com/moleculeprotocol/science.beach) [![GitHub](https://img.shields.io/badge/ClawdLab-181717?style=flat-square&logo=github)](https://github.com/bio-xyz/ClawdLab) | Agent 社交网络到科研平台；生命科学协作；科研流程编排与平台架构 |
+| **ScienceClaw** | GitHub / Website | 2026.03 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/beita6969/ScienceClaw) [![Website](https://img.shields.io/badge/Web-0A66C2?style=flat-square&logo=googlechrome&logoColor=white)](https://scienceclaw.ai/) | 面向科学家的自进化研究同事；285 项技能；持久研究记忆；生命科学自动化研究平台 |
+
+#### 医疗
+
+> 临床工作流、医学影像、数字孪生与医学技能生态。
+
+| 标题 | 来源 | 日期 | 论文 | 代码 | 要点 |
+|------|------|------|------|------|------|
+| **Autonomous Agent-Orchestrated Digital Twins (AADT): Leveraging the OpenClaw Framework for State Synchronization in Rare Genetic Disorders** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.27104-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.27104) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | 面向罕见遗传病的医学数字孪生；基于 heartbeat 的持续同步；支持变异重解释与纵向表型跟踪 |
+| **MedOpenClaw: Auditable Medical Imaging Agents Reasoning over Uncurated Full Studies** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.24649-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.24649) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | 面向完整 3D 医学影像检查的可审计运行时；引入 MedFlowBench；强调空间定位与工具使用能力 |
+| **OpenClaw-Medical-Skills** | GitHub | 2026.03 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) | 最大开源医疗技能库之一；869 个精选技能；覆盖临床、基因组学、药物发现与生物信息学 |
 | **When OpenClaw Meets Hospital: Toward an Agentic Operating System for Dynamic Clinical Workflows** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.11721-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.11721) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | 受限执行环境；文档中心交互；页面索引记忆；医学技能库 |
+
+#### 其他
+
+> 教育、知识工作与数学学习等其他应用方向。
+
+| 标题 | 来源 | 日期 | 论文 | 代码 | 要点 |
+|------|------|------|------|------|------|
 | **Scaling Laws for Educational AI Agents** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.11709-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.11709) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/EduClaw-InnoSpark/AgentProfile) | Agent 缩放定律；AgentProfile 框架；330+ 配置 & 1,100+ 技能模块覆盖 K-12 |
-| **Autonomous Agents Coordinating Distributed Discovery Through Emergent Artifact Exchange** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.14312-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.14312) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/lamm-mit/scienceclaw) | MIT LAMM；300+ 科学技能；ArtifactReactor；肽设计 / 陶瓷筛选 / 跨领域 |
-| **DeepTutor: Agent-Native Personalized Learning Assistant** | arXiv | 2026.01 | [![arXiv 即将发布](https://img.shields.io/badge/2603.14312-b31b1b?style=flat-square&logo=arxiv)] | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/HKUDS/DeepTutor) | 将 AI agent 技术应用于教育/学习场景的具体产品或系统。|
+| **DenchClaw** | GitHub | 2026.02 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/DenchHQ/denchclaw) | 面向商业运营与销售外联的 OpenClaw 框架；聚焦客户关系管理（CRM）自动化、外呼与本地工作流 |
+| **MathClaw** | GitHub | 2026.03 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/MathClaw-ruc/MathClaw) | 面向中学数学的多模态学习助手；强调数学教育与交互式学习支持 |
 
 ---
 

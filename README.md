@@ -22,9 +22,8 @@
   - [Infrastructure & Systems](#infrastructure--systems)
   - [Learning & Evolution](#learning--evolution)
   - [Safety & Security](#safety--security)
-  - [Embodied Agents](#embodied-agents)
   - [Agent Society](#agent-society)
-  - [Domain Applications](#domain-applications)
+  - [application](#application)
 - [Architecture](#-architecture)
 - [Ecosystem Timeline](#-ecosystem-timeline)
 - [Other Resources](#-other-resources) — SDKs, tools, community, related repos
@@ -83,19 +82,6 @@
 | **Taming OpenClaw: Security Analysis and Mitigation of Autonomous LLM Agent Threats** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.12644-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.11619) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/antgroup/ClawAegis) | Taming OpenClaw is a security framework analyzing LLM agent vulnerabilities and proposing lifecycle-aware defenses to reduce systemic risks|
 | **ClawBench: Can AI Agents Complete Everyday Online Tasks?** | arXiv | 2026.04 | [![arXiv](https://img.shields.io/badge/2603.12644-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2604.08523) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | ClawBench benchmarks autonomous agents on completing real-world online tasks, tracking behavior and revealing reliability and safety challenges|
 | **Your Agent, Their Asset: A Real-World Safety Analysis of OpenClaw** | arXiv | 2026.04 | [![arXiv](https://img.shields.io/badge/2602.02625-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2604.04759) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/UCSC-VLAA/CIK-Bench) | Your Agent, Their Asset evaluates OpenClaw using the CIK taxonomy, exposing high vulnerabilities and limited defenses across multiple models|
-### Embodied Agents
-
-> Robotics, physical embodiment, and ROS integration.
-
-| Title | Venue | Date | Paper | Code | Highlights |
-|-------|-------|------|-------|------|------------|
-| **RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.11558-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.11558) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/RoboClaw-Robotics/RoboClaw) | VLA model; Entangled Action Pairs; +25% success rate; −53.7% human effort |
-| **RoboClaw (MINT): Open-Source Embodied Intelligence Assistant** | GitHub | 2026.03 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/MINT-SJTU/RoboClaw) | Conversational arm setup; calibration & teleoperation; built on OpenClaw ecosystem |
-| **ROSClaw: An OpenClaw ROS 2 Framework for Agentic Robot Control and Interaction** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.11558-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.26997) | ![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github) To be released soon| SF Hackathon champion; Unitree G1/H1, DJI; runs on RPi4 |
-| **RoClaw: The Cerebellum — physical embodiment for AI agents** | GitHub | 2026.03 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/EvolvingAgentsLabs/RoClaw) | Dual-Brain bytecode architecture; somatic firmware; open-source hardware CAD & simulation |
-| **StreamingClaw Technical Report** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.11558-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.22120) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | StreamingClaw is an intelligent agent framework for real-time video input and physical-world interaction |
-| **UAV-Claw** | GitHub | 2026.04 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/prince687028/UAV-Claw) | UAV Claw is an aerial agent framework enabling drones to follow language commands and perform complex tasks autonomously|
-
 ### Agent Society
 
 > Social behaviors, emergent norms, peer learning, and collective dynamics in agent populations.
@@ -105,24 +91,55 @@
 | **OpenClaw Agents on Moltbook: Risky Instruction Sharing and Norm Enforcement in an Agent-Only Social Network** | arXiv | 2026.02 | [![arXiv](https://img.shields.io/badge/2602.02625-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2602.02625) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/manikm-114/OpenClaw-Agents-on-Moltbook) | 39k posts / 14.5k agents; 18.4% action-inducing; emergent norm enforcement |
 | **When AI Agents Teach Each Other: Discourse Patterns Resembling Peer Learning in the Moltbook Community** | arXiv | 2026.02 | [![arXiv](https://img.shields.io/badge/2602.14477-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2602.14477) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | 2.4M agents' peer learning patterns |
 | **OpenClaw AI Agents as Informal Learners at Moltbook: Characterizing an Emergent Learning Community at Scale** | arXiv | 2026.02 | [![arXiv](https://img.shields.io/badge/2602.18832-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2602.18832) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | 2.8M agents' informal learning behavior |
-| **From Agent-Only Social Networks to Autonomous Scientific Research: Lessons from OpenClaw and Moltbook, and the Architecture of ClawdLab and Beach.Science** | arXiv | 2026.02 | [![arXiv](https://img.shields.io/badge/2602.19810-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2602.19810) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/moleculeprotocol/science.beach)  [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/bio-xyz/ClawdLab)| OpenClaw → Moltbook → ClawdLab; Sybil resistance; 5 architectural patterns |
 | **When Openclaw Agents Learn from Each Other: Insights from Emergent AI Agent Communities for Human-AI Partnership in Education** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.16663-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.16663) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | 167k agents; bidirectional scaffolding; emergent peer learning; implications for AIED |
 | **MoChat: Reconnecting the World through AI Agents** | GitHub | 2026.02 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/HKUDS/MoChat) |MoChat is a native AI agent social platform that builds an interactive ecosystem and collaborative space for AI agents|
 | **AgentPanel: The world’s first research-focused human-AI Agent collaborative discussion community** | GitHub | 2026.03 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/InternScience/AgentPanel) |AgentPanel is a collaborative discussion platform where humans and AI agents (e.g., OpenClaw) jointly engage in research‑oriented social interactions, enabling multi‑agent Q&A, debate, and knowledge sharing|
 
-### Domain Applications
+### application
 
-> Vertical applications: healthcare, education, scientific discovery, personalized agents, etc.
+> Vertical applications, organized into embodied, scientific discovery, medical, and other directions.
+
+#### Embodied Agents
+
+> Robotics, physical embodiment, and ROS integration.
 
 | Title | Venue | Date | Paper | Code | Highlights |
 |-------|-------|------|-------|------|------------|
-| **Toward Personalized LLM-Powered Agents: Foundations, Evaluation, and Future Directions** | arXiv | 2026.02 | [![arXiv](https://img.shields.io/badge/2602.22680-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2602.22680) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | Four components: Profile / Memory / Planning / Action |
+| **RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.11558-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.11558) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/RoboClaw-Robotics/RoboClaw) | VLA model; Entangled Action Pairs; +25% success rate; −53.7% human effort |
+| **RoboClaw (MINT): Open-Source Embodied Intelligence Assistant** | GitHub | 2026.03 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/MINT-SJTU/RoboClaw) | Conversational arm setup; calibration & teleoperation; built on OpenClaw ecosystem |
+| **ROSClaw: An OpenClaw ROS 2 Framework for Agentic Robot Control and Interaction** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.11558-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.26997) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/PlaiPin/rosclaw) | SF Hackathon champion; Unitree G1/H1, DJI; runs on RPi4 |
+| **RoClaw: The Cerebellum — physical embodiment for AI agents** | GitHub | 2026.03 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/EvolvingAgentsLabs/RoClaw) | Dual-Brain bytecode architecture; somatic firmware; open-source hardware CAD & simulation |
+
+#### Scientific Discovery
+
+> Automated research, distributed discovery, and life-science research platforms.
+
+| Title | Venue | Date | Paper | Code | Highlights |
+|-------|-------|------|-------|------|------------|
+| **Autonomous Agents Coordinating Distributed Discovery Through Emergent Artifact Exchange** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.14312-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.14312) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/lamm-mit/scienceclaw) | Automated research collaboration; shared artifacts; peptide design / ceramic screening / cross-domain discovery |
+| **From Agent-Only Social Networks to Autonomous Scientific Research: Lessons from OpenClaw and Moltbook, and the Architecture of ClawdLab and Beach.Science** | arXiv | 2026.02 | [![arXiv](https://img.shields.io/badge/2602.19810-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2602.19810) | [![GitHub](https://img.shields.io/badge/Beach.Science-181717?style=flat-square&logo=github)](https://github.com/moleculeprotocol/science.beach) [![GitHub](https://img.shields.io/badge/ClawdLab-181717?style=flat-square&logo=github)](https://github.com/bio-xyz/ClawdLab) | Agent social networks to research platforms; life-science collaboration; workflow orchestration and platform architecture |
+| **ScienceClaw** | GitHub / Website | 2026.03 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/beita6969/ScienceClaw) [![Website](https://img.shields.io/badge/Web-0A66C2?style=flat-square&logo=googlechrome&logoColor=white)](https://scienceclaw.ai/) | Self-evolving research colleague for scientists; 285 skills; persistent research memory; life-science automation platform |
+
+#### Medical
+
+> Clinical workflows, medical imaging, digital twins, and medical skill ecosystems.
+
+| Title | Venue | Date | Paper | Code | Highlights |
+|-------|-------|------|-------|------|------------|
+| **Autonomous Agent-Orchestrated Digital Twins (AADT): Leveraging the OpenClaw Framework for State Synchronization in Rare Genetic Disorders** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.27104-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.27104) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | Medical digital twins for rare genetic disorders; heartbeat-based synchronization; longitudinal phenotype tracking |
+| **MedOpenClaw: Auditable Medical Imaging Agents Reasoning over Uncurated Full Studies** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.24649-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.24649) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | Auditable agents for full 3D medical imaging studies; MedFlowBench; spatial grounding and tool use |
+| **OpenClaw-Medical-Skills** | GitHub | 2026.03 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) | Open-source medical skill library; 869 curated skills; clinical, genomics, drug discovery, and bioinformatics |
 | **When OpenClaw Meets Hospital: Toward an Agentic Operating System for Dynamic Clinical Workflows** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.11721-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.11721) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | Restricted execution; document-centric interaction; page-indexed memory; medical skill library |
-| **Scaling Laws for Educational AI Agents** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.11709-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.11709) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/EduClaw-InnoSpark/AgentProfile) | Agent Scaling Law; AgentProfile framework; 330+ profiles & 1,100+ skill modules across K-12 |
-| **Autonomous Agents Coordinating Distributed Discovery Through Emergent Artifact Exchange** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.14312-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.14312) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/lamm-mit/scienceclaw) | MIT LAMM; 300+ scientific skills; ArtifactReactor; peptide design / ceramic screening / cross-domain |
-| **DeepTutor: Agent-Native Personalized Learning Assistant** | arXiv | 2026.01 | ![arXiv](https://img.shields.io/badge/2603.14312-b31b1b?style=flat-square&logo=arxiv)To be released soon | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/HKUDS/DeepTutor) |Products or systems that apply AI agent technology to education and learning scenarios.|
-| **ClawWork: OpenClaw as Your AI Coworker** | GitHub | 2026.02 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/HKUDS/ClawWork) |ClawWork is an applied platform that deploys AI agents in real-world economic tasks and professional capability assessments|
-| **MathClaw: A multi-channel AI learning assistant for middle and high school mathematics.** | GitHub | 2026.04 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/MathClaw-ruc/MathClaw) |MathClaw is an AI-powered assistant for middle-school math, providing personalized exercises, knowledge tracking, and automated learning feedback.|
+
+#### Other
+
+> Other application directions such as education, knowledge work, and math learning.
+
+| Title | Venue | Date | Paper | Code | Highlights |
+|-------|-------|------|-------|------|------------|
+| **Scaling Laws for Educational AI Agents** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.11709-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.11709) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/EduClaw-InnoSpark/AgentProfile) | Agent scaling laws; AgentProfile framework; 330+ profiles and 1,100+ skill modules across K-12 |
+| **DenchClaw** | GitHub | 2026.02 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/DenchHQ/denchclaw) | OpenClaw framework for business operations and sales outreach; CRM automation, calling, and local workflows |
+| **MathClaw** | GitHub | 2026.03 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/MathClaw-ruc/MathClaw) | Multimodal learning assistant for secondary-school mathematics; math education and interactive learning support |
 
 ---
 
