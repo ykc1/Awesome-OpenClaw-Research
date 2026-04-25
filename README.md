@@ -15,16 +15,16 @@
 ## Table of Contents
 
 - [Papers](#-papers) — **Core of this repo**
-  - [Learning and Evolving](#learning-and-evolving)
-  - [Safety and Security](#safety-and-security)
-  - [Agent Society](#agent-society)
-  - [Infrastructure and Systems](#infrastructure-and-systems)
+  - [Open Policy: Learning and Evolving](#open-policy-learning-and-evolving)
+  - [Open Environment: Safety and Security](#open-environment-safety-and-security)
+  - [Open Population: Claw Society](#open-population-claw-society)
+  - [Open Substrate: Infrastructure and Systems](#open-substrate-infrastructure-and-systems)
   - [Applications](#applications)
-    - [Embodied Agents](#embodied-agents)
-    - [Autonomous Driving and Aerial Systems](#autonomous-driving-and-aerial-systems)
-    - [Scientific Discovery](#scientific-discovery)
-    - [Healthcare](#healthcare)
-    - [Beyond Core Domains](#beyond-core-domains)
+    - [Embodied Claws: Robotics and Manipulation](#embodied-claws-robotics-and-manipulation)
+    - [Mobile Claws: Ground and Aerial Autonomy](#mobile-claws-ground-and-aerial-autonomy)
+    - [Scientific Claws: Research and Discovery](#scientific-claws-research-and-discovery)
+    - [Clinical Claws: Healthcare and Medicine](#clinical-claws-healthcare-and-medicine)
+    - [Other Claws](#other-claws)
 - [Other Resources](#-other-resources) — SDKs, tools, community, related repos
 - [Contributing](#-contributing)
 
@@ -32,7 +32,7 @@
 
 ## 📄 Papers
 
-### Learning and Evolving
+### Open Policy: Learning and Evolving
 
 | Title | Venue | Date | Paper | Code |
 |-------|-------|------|-------|------|
@@ -48,7 +48,7 @@
 | **StepPO: Step-Aligned Policy Optimization for Agentic Reinforcement Learning** | arXiv | 2026.04 | [![arXiv](https://img.shields.io/badge/2603.10165-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2604.18401) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/AgentR1/Agent-R1) [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/AgentR1/Claw-R1)|
 | **EvoClaw: Evaluating AI Agents on Continuous Software Evolution** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.13428-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.13428) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/Hydrapse/EvoClaw) [![HuggingFace](https://img.shields.io/badge/Dataset-FFD21E?style=flat-square&logo=huggingface&logoColor=000)](https://huggingface.co/datasets/hyd2apse/EvoClaw-data) |
 
-### Safety and Security
+### Open Environment: Safety and Security
 
 | Title | Venue | Date | Paper | Code |
 |-------|-------|------|-------|------|
@@ -66,7 +66,7 @@
 | **Your Agent, Their Asset: A Real-World Safety Analysis of OpenClaw** | arXiv | 2026.04 | [![arXiv](https://img.shields.io/badge/2602.02625-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2604.04759) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/UCSC-VLAA/CIK-Bench) |
 | **ClawLess: A Security Model of AI Agents** | arXiv | 2026.04 | [![arXiv](https://img.shields.io/badge/2602.02625-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2604.06284v1) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square)|
 
-### Agent Society
+### Open Population: Claw Society
 
 | Title | Venue | Date | Paper | Code |
 |-------|-------|------|-------|------|
@@ -78,7 +78,7 @@
 | **AgentPanel: The world’s first research-focused human-AI Agent collaborative discussion community** | GitHub | 2026.03 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/InternScience/AgentPanel) |
 | **ClawTeam: Agent Swarm Intelligence** | GitHub | 2026.03 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/HKUDS/ClawTeam) |
 
-### Infrastructure and Systems
+### Open Substrate: Infrastructure and Systems
 
 | Title | Venue | Date | Paper | Code |
 |-------|-------|------|-------|------|
@@ -94,7 +94,7 @@
 
 ### Applications
 
-#### Embodied Agents
+#### Embodied Claws: Robotics and Manipulation
 
 | Title | Venue | Date | Paper | Code |
 |-------|-------|------|-------|------|
@@ -103,14 +103,14 @@
 | **ROSClaw: An OpenClaw ROS 2 Framework for Agentic Robot Control and Interaction** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.11558-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.26997) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/PlaiPin/rosclaw) |
 | **RoClaw: The Cerebellum — physical embodiment for AI agents** | GitHub | 2026.03 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/EvolvingAgentsLabs/RoClaw) |
 
-#### Autonomous Driving and Aerial Systems
+#### Mobile Claws: Ground and Aerial Autonomy
 
 | Title | Venue | Date | Paper | Code |
 |-------|-------|------|-------|------|
 | **StreamingClaw Technical Report** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.11558-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.22120) | [![Website](https://img.shields.io/badge/Web-0A66C2?style=flat-square&logo=googlechrome&logoColor=white)](https://jackyu6.github.io/StreamingClaw-Page/) [![HuggingFace](https://img.shields.io/badge/Dataset-FFD21E?style=flat-square&logo=huggingface&logoColor=000)](https://huggingface.co/collections/LiAuto-Foundation-Model/streamingclaw) |
 | **UAV-Claw** | GitHub | 2026.04 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://prince687028.github.io/UAV-Claw/) |
 
-#### Scientific Discovery
+#### Scientific Claws: Research and Discovery
 
 | Title | Venue | Date | Paper | Code |
 |-------|-------|------|-------|------|
@@ -120,7 +120,7 @@
 | **clawRxiv: Agent-Native Open Research Archive** | GitHub / Website | 2026.03 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/wu-yc/Claw4S_Stanford/tree/main) [![Website](https://img.shields.io/badge/Web-0A66C2?style=flat-square&logo=googlechrome&logoColor=white)](https://www.clawrxiv.io/) |
 | **AutoResearchClaw:Chat an Idea. Get a Paper. Autonomous, Collaborative & Self-Evolving.** | GitHub | 2026.03 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/aiming-lab/AutoResearchClaw) |
 
-#### Healthcare
+#### Clinical Claws: Healthcare and Medicine
 
 | Title | Venue | Date | Paper | Code |
 |-------|-------|------|-------|------|
@@ -129,7 +129,7 @@
 | **OpenClaw-Medical-Skills** | GitHub | 2026.03 | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) | [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) |
 | **When OpenClaw Meets Hospital: Toward an Agentic Operating System for Dynamic Clinical Workflows** | arXiv | 2026.03 | [![arXiv](https://img.shields.io/badge/2603.11721-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.11721) | ![N/A](https://img.shields.io/badge/N/A-grey?style=flat-square) |
 
-#### Beyond Core Domains
+#### Other Claws
 
 | Title | Venue | Date | Paper | Code |
 |-------|-------|------|-------|------|
