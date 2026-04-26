@@ -2,7 +2,7 @@
 
 ![](assets/banner.gif)
 
-🦞 **OpenClaw** launched Nov 2025, hit 200k GitHub stars in **84 days**, and surpassed **330k stars** by March 2026. This repo collects **papers studying or built upon the OpenClaw ecosystem** — covering agent infrastructure, learning, safety, embodiment, social dynamics & domain applications. The questions are universal; OpenClaw is the lens.
+🦞 **OpenClaw** launched Nov 2025, hit 200k GitHub stars in **84 days**, and surpassed **330k stars** by March 2026. This repo collects **papers studying or built upon the OpenClaw ecosystem**, covering claw learning and evolution, safety and security, social dynamics, infrastructure and systems, and applications in embodied AI, mobile agents, scientific discovery, clinical AI, and beyond. The questions are universal; OpenClaw is the lens.
 
 <p align="center">
   <a href="#-papers"><img src="https://img.shields.io/badge/Papers-25%2B-blue?style=flat-square" alt="Papers"></a>
