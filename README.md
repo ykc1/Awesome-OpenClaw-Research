@@ -5,15 +5,24 @@
 🦞 **OpenClaw** launched Nov 2025, hit 200k GitHub stars in **84 days**, and surpassed **330k stars** by March 2026. This repo collects **papers studying or built upon the OpenClaw ecosystem**, covering claw learning and evolution, safety and security, social dynamics, infrastructure and systems, and applications in embodied AI, mobile agents, scientific discovery, clinical AI, and beyond. The questions are universal; OpenClaw is the lens.
 
 <p align="center">
-  <a href="#-papers"><img src="https://img.shields.io/badge/Papers-25%2B-blue?style=flat-square" alt="Papers"></a>
+  <a href="#-papers"><img src="https://img.shields.io/badge/Papers-40%2B-blue?style=flat-square" alt="Papers"></a>
   <a href="https://github.com/openclaw/openclaw"><img src="https://img.shields.io/badge/OpenClaw-330k%2B%20Stars-yellow?style=flat-square" alt="Stars"></a>
   <a href="#-contributing"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" alt="PRs Welcome"></a>
+</p>
+
+<p align="center">
+  <a href="#open-policy-learning-and-evolving"><img src="https://img.shields.io/badge/Open%20Policy-Learning%20%26%20Evolving-4E79A7?style=flat-square" alt="Open Policy"></a>
+  <a href="#open-environment-safety-and-security"><img src="https://img.shields.io/badge/Open%20Environment-Safety%20%26%20Security-E15759?style=flat-square" alt="Open Environment"></a>
+  <a href="#open-population-claw-society"><img src="https://img.shields.io/badge/Open%20Population-Claw%20Society-59A14F?style=flat-square" alt="Open Population"></a>
+  <a href="#open-substrate-infrastructure-and-systems"><img src="https://img.shields.io/badge/Open%20Substrate-Infrastructure%20%26%20Systems-F28E2B?style=flat-square" alt="Open Substrate"></a>
+  <a href="#applications"><img src="https://img.shields.io/badge/Applications-Domain%20Claws-9C755F?style=flat-square" alt="Applications"></a>
 </p>
 
 ---
 
 ## Table of Contents
 
+- [Reading Guide](#-reading-guide) — survey-aligned taxonomy
 - [Papers](#-papers) — **Core of this repo**
   - [Open Policy: Learning and Evolving](#open-policy-learning-and-evolving)
     - [Component Level](#component-level)
@@ -37,6 +46,21 @@
     - [Other Claws](#other-claws)
 - [Other Resources](#-other-resources) — SDKs, tools, community, related repos
 - [Contributing](#-contributing)
+
+---
+
+## 🧭 Reading Guide
+
+This repository follows the **OpenClaw Research** taxonomy: instead of grouping work only by task domain, it organizes papers by the main sandbox boundary they relax in open deployment. In this setting, agents may evolve after release, interact with untrusted tools and environments, coexist with open populations of humans and agents, and rely on persistent runtime substrates.
+
+| Principle | Repo Section | Core Question | Typical Topics |
+|---|---|---|---|
+| **Open Policy** | Learning and Evolving | How does the agent policy or its surrounding state evolve after deployment? | Memory evolution, skill evolution, RL-based agent learning, population-level co-evolution |
+| **Open Environment** | Safety and Security | How can agents remain safe when tools, resources, and environments are untrusted? | Prompt injection, tool attacks, supply-chain risks, sandboxing, auditing, HITL defense |
+| **Open Population** | Claw Society | What collective behaviors emerge among open populations of agents and humans? | Agent-only communities, social dynamics, consensus hallucination, human-agent collaboration |
+| **Open Substrate** | Infrastructure and Systems | What runtime substrate is needed for persistent, observable, accountable agents? | Agent-as-OS, MCP/tool interoperability, edge deployment, GUI-agent infrastructure, evaluation harnesses |
+| **Application Layer** | Applications | How do the four openness dimensions combine in concrete domains? | Robotics, mobile agents, scientific discovery, healthcare, education, domain-specific agents |
+
 
 ---
 
@@ -247,6 +271,8 @@
 
 </details>
 
+<details>
+<summary><b>Chinese Community & Tutorials</b></summary>
 
 | Name | Link | Description |
 |------|------|-------------|
@@ -258,6 +284,8 @@
 
 </details>
 
+<details>
+<summary><b>Related Repositories</b></summary>
 
 > Know a great OpenClaw project we missed? Open a PR and help us keep this list growing!
 
@@ -279,6 +307,52 @@
 
 Contributions are welcome! We especially need help with:
 
-- **Papers** — Adding missing OpenClaw-related papers with proper links
-- **Analysis** — Improving paper notes and highlights
-- **Timeline** — Updating the ecosystem timeline with new events
+- **Papers** — Adding missing OpenClaw-related papers with proper links.
+- **Analysis** — Improving paper notes, section placement, and taxonomy alignment.
+- **Timeline** — Updating the ecosystem timeline with new events.
+- **Resources** — Adding useful SDKs, tools, benchmarks, datasets, and community repositories.
+
+### Entry Template
+
+Please follow the existing table style when adding a new paper or project:
+
+```markdown
+| Title | Venue | Date | Paper | Code |
+|-------|-------|------|-------|------|
+| **Paper or Project Title** | arXiv / GitHub / Website | YYYY.MM | [![arXiv](...)](...) | [![GitHub](...)](...) |
+```
+
+Use the existing `N/A` badge style when a paper, code repository, dataset, or website is not available.
+
+### Classification Checklist
+
+Before opening a PR, please check:
+
+- [ ] The entry is directly related to OpenClaw or open-deployment LLM agents.
+- [ ] The entry is placed in the most specific matching section.
+- [ ] Paper, code, website, dataset, and demo links are accurate.
+- [ ] The title, venue/source, and date follow the existing README format.
+- [ ] The entry does not duplicate an existing item under another section.
+- [ ] The PR does not move existing entries unless the reason for reclassification is clearly explained.
+
+### Section Placement Rules
+
+- Put self-improving memory, skill, or policy work under **Open Policy: Learning and Evolving**.
+- Put attacks, defenses, auditing, sandboxing, or supply-chain security under **Open Environment: Safety and Security**.
+- Put agent-only communities, Moltbook-style social dynamics, and human-agent collaboration under **Open Population: Claw Society**.
+- Put reusable runtimes, agent OS designs, MCP/tool infrastructure, GUI-agent harnesses, and evaluation infrastructure under **Open Substrate: Infrastructure and Systems**.
+- Put domain-specific systems under **Applications**, unless their main contribution is a reusable infrastructure, benchmark, or runtime substrate.
+
+### PR Style
+
+Suggested PR title format:
+
+```text
+docs: add <paper/project name> to <section name>
+```
+
+For taxonomy or README-structure improvements, use:
+
+```text
+docs: improve taxonomy guide and contribution rules
+```
